@@ -1,0 +1,126 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 20px;     
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(206, 206, 206); 
+}
+
+.nav-header-main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: white;
+}
+
+.header-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: auto;
+}
+
+.nav-header-list {    
+    list-style-type:none;
+    align-self: center;
+    order: 2;
+    display: flex;  
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    height: 3em;  
+}
+
+.header-login {
+    order: 3;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-header-ref {
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 4px 8px;
+    margin-right: 1em;
+}
+
+.nav-header-input {
+    background-color: rgb(218, 218, 218);  
+    font-size: 16px;
+    border: 0ch;
+    border-radius: 2px;
+    padding-left: 8px;
+    height: 29px;
+}
+
+.nav-header-button {
+    background-color: #36afaf;
+    display: inline-block;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 4px 8px;
+    margin-right: 1em;  
+}
+
+.index-main {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding-top: 8px;
+    width: 800px;
+}
+
+.index-login-status {
+    padding-bottom: 8px;
+}
+
+.signup-main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 380px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-input {
+    background-color: rgb(218, 218, 218);  
+    font-size: 16px;
+    border: 0ch;
+    border-radius: 2px;
+    padding-left: 8px;
+    margin: 8px;
+    height: 29px;
+}
+
+.signup-button {
+    background-color: #36afaf;
+    display: inline-block;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 4px 8px;
+}
