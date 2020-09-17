@@ -3,8 +3,14 @@
 ?>
 
 <main class="index-main">
-    <p class="index-login-status">You are logged out!</p>
-    <p class="index-login-status">You are logged in!</p>
+    <?php
+        if (isset($_SESSION['userId'])) {
+            echo '<p class="index-login-status">You are logged in!</p>';
+        }
+        else {
+            echo '<p class="index-login-status">You are logged out!</p>';
+        }
+    ?>
 </main>
 
 <?php

@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,7 +27,7 @@
             <div class="header-login">
                 <form action="includes/login.inc.php" method="post">
                     <input class="nav-header-input" type="text" name="mailuid" placeholder="Username/Email...">
-                    <input class="nav-header-input" type="password" name="pws" placeholder="Password...">
+                    <input class="nav-header-input" type="password" name="pwd" placeholder="Password...">
                     <button class="nav-header-button" type="submit" name="login-submit">Login</button>
                 </form>
                 <a class="nav-header-ref" href="signup.php">Signup</a>
