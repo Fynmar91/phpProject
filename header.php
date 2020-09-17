@@ -21,7 +21,7 @@
             <ul class="nav-header-list">
                 <li><a class="nav-header-ref" href="index.php">Home</a></li>
                 <li><a class="nav-header-ref" href="#">Stuff</a></li>
-                <li><a class="nav-header-ref" href="#">More Stuff Me</a></li>
+                <li><a class="nav-header-ref" href="#">More Stuff</a></li>
                 <li><a class="nav-header-ref" href="#">All the Stuff</a></li>
             </ul>
             <div class="nav-header-login">
@@ -33,7 +33,7 @@
                     }
                     else {
                         echo '  <form action="includes/login.inc.php" method="post">
-                                    <input class="nav-header-input" type="text" name="mailuid" placeholder="Username/Email...">
+                                    <input class="nav-header-input" type="text" name="mailuid" placeholder="Username...">
                                     <input class="nav-header-input" type="password" name="pwd" placeholder="Password...">
                                     <button class="nav-header-button" type="submit" name="login-submit">Login</button>
                                 </form>
